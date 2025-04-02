@@ -7,8 +7,8 @@
 </head>
 <body>
     <?php 
-        $user_name = $_POST[user_name];
-        $user_age = $_POST[user_age];
+        $user_name = $_POST['user_name'];
+        $user_age = $_POST['user_age'];
         echo("Der User " . $user_name . " ist " . $user_age . " Jahre alt!");
     ?>
 </body>
